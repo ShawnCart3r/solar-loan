@@ -15,8 +15,7 @@ function eligibilityStatus(state, householdSize, annualIncome) {
   }
   
 
-  /**This function uses the same approach as the Python function. 
-   * It creates an object amiTable that contains the AMI values for each state and household size. 
+  /**This function creates an object amiTable that contains the AMI values for each state and household size. 
    * It then uses the householdSize argument to determine the index of the AMI value to compare the annualIncome argument against. 
    * If the annualIncome argument is less than or equal to the AMI value, the function returns 'eligible'.
    *  Otherwise, it returns 'ineligible'
