@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Document</title>
+</head>
+<body>
+  <h1>AMI Eligibility Checker</h1>
+  <div class="container">
+    <label for="state">State:</label>
+    <select name="state" id="state">
+      <option value="Texas">Texas</option>
+      <option value="Rhode Island">Rhode Island</option>
+      <option value="Massachusetts">Massachusetts</option>
+    </select><br><br>
+    <label for="household-size">Household Size:</label>
+    <input type="number" name="household-size" id="household-size"><br><br>
+    <label for="annual-income">Annual Income:</label>
+    <input type="number" name="annual-income" id="annual-income"><br><br>
+    <button type="button" onclick="checkEligibility()">Check Eligibility</button>
+  </form>
+  <br>
+  <div id="eligibility"></div>
+
+
+  </div>
+  <form>
+   
+    <script src="main.js"></script>
+    
+       
+</body>
+</html>
